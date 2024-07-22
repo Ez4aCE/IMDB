@@ -7,8 +7,8 @@ import DarkModeSwitch from "./DarkModeSwitch";
 
 export default function Header() {
   return (
-    <div className="flex justify-between mx-2 max-w-6x1  sm:mx-auto items-center py-3">
-      <div className="flex ml-10 select-none">
+    <div className="flex justify-between mx-2 max-w-6xl sm:mx-auto items-center py-6">
+      <div className="flex  select-none">
         <MenuItem title="HOME" address="/" Icon={TiHome} />
         <MenuItem title="ABOUT" address="/about" Icon={IoMdInformationCircle} />
       </div>
